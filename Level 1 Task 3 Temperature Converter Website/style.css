@@ -1,0 +1,102 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    background: url('Night sky.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.display {
+    padding-left: 250px;
+    padding-top: 150px;
+}
+
+.display h1 {
+    font-size: 35px;
+    color: rgb(248, 243, 243);
+}
+
+.temp_conv {
+    margin: 45px auto;
+    background: linear-gradient(90deg, #96bec9, #6a7ccd);
+    padding: 20px 30px;
+    margin-top: 10vh;
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border-width: 5px;
+}
+
+form {
+    padding: 35px;
+}
+
+h3.title {
+    font-size: 25px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding-top: 40px;
+}
+
+label {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+input {
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+}
+
+.result label {
+    width: 18%;
+}
+
+.result input {
+    width: 50%;
+}
+
+.conv_value label {
+    width: 30%;
+}
+
+.conv_value input {
+    width: 60%;
+}
+
+.conv_value {
+    margin-bottom: 25px;
+    padding-left: 25px;
+}
+
+.conv_input {
+    margin-bottom: 25px;
+}
+
+.result {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 38px;
+}
+
+button.con-btn {
+    width: 15rem;
+    padding: 10px;
+    background: #060310;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 60px;
+    border-radius: 48%;
+}
+
+select {
+    width: 295px;
+    padding: 5px;
+}
